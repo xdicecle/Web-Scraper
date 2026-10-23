@@ -1,0 +1,21 @@
+{
+  "name": "learn-typescript-scraping",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Learn TypeScript by building a book scraper, one lesson at a time.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lesson:1": "node src/01-books.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
